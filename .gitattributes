@@ -1,0 +1,7 @@
+# Normalize line endings: keep LF in the repo and in Docker builds
+* text=auto eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.pdf binary
