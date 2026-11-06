@@ -1,0 +1,19 @@
+# Keep the Docker build context small and clean
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.git/
+.gitignore
+.gitattributes
+.env
+.env.*
+.vscode/
+.idea/
+tests/
+docs/
+sample_data/
+*.md
+Dockerfile
+.dockerignore
