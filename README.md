@@ -222,6 +222,7 @@ All 8 tests cover every endpoint with the sample dataset and the error cases abo
 | Healthcheck | Docker calls `/health` every 30 seconds and marks the container `healthy` or `unhealthy` | `Dockerfile` |
 | Multi-stage build | A `builder` stage installs the dependencies and removes the test suites bundled inside packages; the final stage copies only the installed packages and the source code | `Dockerfile` |
 | GitHub Actions CI | On every push and pull request: runs pytest, then builds the image, starts the container, waits until it is healthy and calls the API | `.github/workflows/ci.yml` |
+| Feature branch and pull request | All enhancements were developed on `feature/docker-enhancements` and merged into `main` through [pull request #1](https://github.com/MohammedAltatari/CSV-Insights-API/pull/1) | GitHub |
 
 ### Image size: single-stage vs multi-stage
 
@@ -259,6 +260,8 @@ Then open **http://127.0.0.1:8000/docs**.
 | GitHub Actions passing | ![GitHub Actions](docs/screenshots/08-github-actions-passed.png) |
 | Image size before multi-stage | ![Before](docs/screenshots/09-image-size-before.png) |
 | Image size after multi-stage | ![After](docs/screenshots/10-image-size-after-multistage.png) |
+| Pull request opened | ![Pull request](docs/screenshots/11-pull-request.png) |
+| Pull request merged into main | ![Merged](docs/screenshots/12-pull-request-merged.png) |
 
 ---
 
