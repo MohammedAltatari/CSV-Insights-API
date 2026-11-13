@@ -262,6 +262,7 @@ Then open **http://127.0.0.1:8000/docs**.
 | Image size after multi-stage | ![After](docs/screenshots/10-image-size-after-multistage.png) |
 | Pull request opened | ![Pull request](docs/screenshots/11-pull-request.png) |
 | Pull request merged into main | ![Merged](docs/screenshots/12-pull-request-merged.png) |
+| GitHub commits history | ![Commits](docs/screenshots/13-github-commits-history.png) |
 
 ---
 
